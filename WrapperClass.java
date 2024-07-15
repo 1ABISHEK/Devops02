@@ -18,14 +18,14 @@ public static void main(String args[]){
         Character obj6=new Character(c);
         Boolean obj7=new Boolean(b2);
        
-        System.out.println(obj);
-        System.out.println(obj1);
-        System.out.println(obj2);
-        System.out.println(obj3);
-        System.out.println(obj4);
-        System.out.println(obj5);
-        System.out.println(obj6);
-        System.out.println(obj7);
+         System.out.println("Byte     :"+obj);
+        System.out.println("Short     :"+obj1);
+        System.out.println("Integer   :"+obj2);
+        System.out.println("Long      :"+obj3);
+        System.out.println("Float     :"+obj4);
+        System.out.println("Double    :"+obj5);
+        System.out.println("Character :"+obj6);
+        System.out.println("Boolean   :"+obj7);
         }
 }
 
