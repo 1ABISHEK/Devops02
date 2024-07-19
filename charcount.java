@@ -1,7 +1,8 @@
-
+import java.util.*;
 public class Sef {
     public static void main(String[] args) {
-        String s = "AbisHek@$$12";
+        Scanner sc = new Scanner(System.in);
+        String s = sc.nextInt();
         char c[] = s.toCharArray();
         int num=0;
         int ch = 0;
