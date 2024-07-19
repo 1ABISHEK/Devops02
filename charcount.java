@@ -2,7 +2,7 @@ import java.util.*;
 public class Sef {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        String s = sc.nextInt();
+        String s = sc.next();
         char c[] = s.toCharArray();
         int num=0;
         int ch = 0;
