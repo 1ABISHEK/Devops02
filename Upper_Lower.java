@@ -1,8 +1,9 @@
-
+import java.util.*;
 public class Def {
 
     public static void main(String[] args) {
-        String s = "AbIsHeK";
+        Scanner sc = new Scanner(System.in);
+        String s = sc.next();;
         String s1 = s.toLowerCase();
         String s2 = s.toUpperCase();
         for(int i=0;i<s1.length();i++){
